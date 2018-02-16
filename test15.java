@@ -11,7 +11,7 @@ public class test15 {
         k = scan.nextLine();
         for (i=0;i<=input.length();) {
         	if (input.indexOf(k,i)>=0) {
-        		i=input.indexOf(k,i)+1;
+        		i=input.indexOf(k,i)+1;  //+1 тут лишнее
         		flag = false;
         		System.out.println("Подстрока встречается с " + (i-1) + " позиции");
         		}
